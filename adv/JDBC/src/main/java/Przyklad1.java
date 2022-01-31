@@ -1,0 +1,2 @@
+public class Przyklad1 {
+}
