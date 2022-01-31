@@ -1,7 +1,6 @@
 package pl.sdacademy.java.adv.school.domain.student;
 
-import org.apache.commons.lang3.tuple.Pair;
-import org.assertj.core.groups.Tuple;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,9 +9,9 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import pl.sdacademy.java.adv.school.Main;
 import pl.sdacademy.java.adv.school.domain.student.model.Student;
-import pl.sdacademy.java.adv.school.domain.student.parsers.csv.CsvStudentsParserImpl;
+
 import pl.sdacademy.java.adv.school.domain.student.parsers.csv.OpenCsvStudentParser;
-import pl.sdacademy.java.adv.school.domain.student.parsers.json.JsonStudentsParser;
+
 import pl.sdacademy.java.adv.school.parsers.RecordsParser;
 
 import java.io.IOException;
